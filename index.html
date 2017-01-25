@@ -20,17 +20,60 @@
 			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
+    <style>
+      .reveal section img{
+        background: #fff;
+      }
+      .reveal strong{
+        color: yellow;
+      }
+      .troll{
+        opacity: 0.3;
+      }
+    </style>
 	</head>
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
+				<section>
+          <h2>Comment</h2>
+          <h1>Redux</h1>
+          <h3>a fini sur mon</h3> 
+          <h1>serveur<h1>
+        </section>
+        <section>
+          <h2>Refonte d'un Prototype</h2>
+          <p>Features basiques:</p>
+          <ul>
+            <li>Login/Logout</li>
+            <li>Ajout/Modifcation de choux</li>
+            <li>Ajout/Suppression de carrottes</li>
+            <li>Statistiques choux/carottes²</li>
+            <li>Etc, etc.</li>
+          </ul>
+        </section>
+				<section>
+          <h1>Comment on fait ?</h1>
+          <h2 class="troll">(un site web)</h2>
+          <ul>
+            <li>DDD</li>
+            <li>CQRS</li>
+            <li>EventSourcing</li>
+            <li>ReactJS</li>
+            <li>Redux</li>
+            <li class="troll">(Dreamweaver ?)</li>
+          </ul>
+        </section>
 				<section data-markdown="slides/DDD.md"
 						 data-separator="^\n\n\n"
 						 data-separator-vertical="^\n\n"
 						 data-separator-notes="^Note:"
 						 data-charset="utf-8">
 				</section>
+        <section>
+          <h1>Le back</h1>
+          <p>CQRS + EventSourcing</p>
+        </section>
 				<section data-markdown="slides/CQRS.md"
 						 data-separator="^\n\n\n"
 						 data-separator-vertical="^\n\n"
@@ -44,6 +87,23 @@
 						 data-charset="utf-8">
 				</section>
 				<section data-markdown="slides/backend.md"
+						 data-separator="^\n\n\n"
+						 data-separator-vertical="^\n\n"
+						 data-separator-notes="^Note:"
+						 data-charset="utf-8">
+				</section>
+
+        <section>
+          <h1>Le front</h1>
+          <p>React + Redux</p>
+        </section>
+				<section data-markdown="slides/react.md"
+						 data-separator="^\n\n\n"
+						 data-separator-vertical="^\n\n"
+						 data-separator-notes="^Note:"
+						 data-charset="utf-8">
+				</section>
+				<section data-markdown="slides/redux.md"
 						 data-separator="^\n\n\n"
 						 data-separator-vertical="^\n\n"
 						 data-separator-notes="^Note:"

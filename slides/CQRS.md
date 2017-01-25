@@ -12,7 +12,7 @@
     - Queries : indexation, aggrégation, projection
     - Commands : consistance
 
- - Onn peut aussi séparer
+ - On peut aussi séparer
     - Les modèles : normalisation VS dénormalisation
     - Les sources de données
 
