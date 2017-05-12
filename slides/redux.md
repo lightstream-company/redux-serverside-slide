@@ -2,7 +2,9 @@
 
 ### Redux advantages 
 
- <img src="slides/img/redux-advantages.svg" alt="" height="450" />
+ <img src="slides/img/redux-advantages.svg" alt="" height="350" />
+
+ <span style="font-size:12pt;">_source: https://css-tricks.com/learning-react-redux/_</span>
 
 
 ### Concept

@@ -9,5 +9,5 @@
 
  <img src="slides/img/should-component-update.png" alt="" height="300"/>
 
-React excel dans un monde d'objets immutables
+React excelle dans un monde d'objets immutables
 
